@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Story</title>
+    <link href="style1.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div>
+  <label for="custom-name">Enter custom name:</label>
+  <input id="custom-name" type="text" />
+</div>
+
+<fieldset>
+  <legend>Choose locale:</legend>
+
+  <label for="us">US</label>
+  <input id="us" type="radio" name="uk-us" value="us" checked>
+
+  <label for="uk">UK</label>
+  <input id="uk" type="radio" name="uk-us" value="uk">
+</fieldset>
+
+<div>
+  <button class="generate">Generate random story</button>
+</div>
+
+<p class="story"></p>
+
+<script src="main1.js"></script>
+</body>
+</html>
